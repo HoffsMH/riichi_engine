@@ -44,7 +44,7 @@ Files are numbered sequentially: `001.md`, `002.md`, `003.md`, etc.
 - When a meaningful change is made to the project
 
 ### Log Format
-Each log must be **readable in ~40 seconds** (roughly 150-200 words max).
+Each log must be **readable in ~1.5 minutes** (roughly 250-300 words max).
 
 ```markdown
 # Devlog NNN - [Brief Title]
