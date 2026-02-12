@@ -3,6 +3,9 @@
 build:
 	gcc -Wall -Wextra -pedantic -Werror src/main.c -o riichi
 
+build2:
+	gcc -Wall -Wextra -pedantic src/main2.c -o riichi
+
 run: build
 	./riichi
 
