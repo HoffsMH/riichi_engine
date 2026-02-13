@@ -4,7 +4,11 @@ build:
 	gcc -Wall -Wextra -pedantic -Werror src/main.c -o riichi
 
 build2:
-	gcc -Wall -Wextra -pedantic src/main2.c -o riichi
+	gcc -Wall -Wextra -pedantic -Werror src/main2.c -o riichi
+
+run2: build2
+	./riichi
+
 
 run: build
 	./riichi

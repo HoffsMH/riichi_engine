@@ -16,10 +16,6 @@ typedef struct {
 	uint8_t value;
 } Tile;
 
-bool is_honor(Tile *tile) {
-	return tile->suit < 2;
-}
-
 void print_utf8(uint32_t code_point) {
 	// all of the mahjong tiles are utf8'ed to 4 bytes
   uint8_t bottom_6 = code_point & 0x3F;
